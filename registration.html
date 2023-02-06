@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2113.3">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px Helvetica; color: #000000; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html lang="en"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;meta charset="UTF-8"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;title&gt;Register&lt;/title&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;div align="center"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;div&gt;&lt;h1&gt;Registration Page&lt;/h1&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;form action="{{url_for('registration')}}" method="POST" enctype="multipart/form-data"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;div&gt;{{ message }}&lt;/div&gt;&lt;br&gt;&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;label&gt;User Name : &lt;/label&gt;&lt;input id="username" name="username" type="text" placeholder="User Name" autocomplete="off"/&gt; &lt;br&gt;&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;label&gt;Password : &lt;/label&gt;&lt;input id="password" name="password" type="password" placeholder="Password" autocomplete="off"/&gt; &lt;br&gt;&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;label&gt;First Name : &lt;/label&gt;&lt;input id="firstname" name="firstname" type="text" placeholder="First Name" autocomplete="off"/&gt; &lt;br&gt;&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;label&gt;Last Name : &lt;/label&gt;&lt;input id="lastname" name="lastname" type="text" placeholder="Last Name" autocomplete="off"/&gt; &lt;br&gt;&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;label&gt;Email : &lt;/label&gt;&lt;input id="email" name="email" type="text" placeholder="Email" autocomplete="off"/&gt; &lt;br&gt;&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;label&gt;Upload File : &lt;/label&gt;&lt;input type="file" id="textfile" name="textfile"&gt;&lt;br&gt;&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;button id="submit" name="submit"&gt;Register&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/form&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;p&gt;Already have an account? Please click &lt;a href="{{url_for('login')}}"&gt;here to login&lt;/a&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+</body>
+</html>
